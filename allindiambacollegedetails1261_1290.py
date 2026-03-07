@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/institute-of-excellence-in-management-science-hubli-67261",
   "https://www.shiksha.com/college/vijetha-academy-secunderabad-101783",
   "https://www.shiksha.com/university/kerala-university-of-digital-sciences-innovation-and-technology-thiruvananthapuram-154899",
-  "https://www.shiksha.com/college/aligarh-college-of-engineering-and-technology-24927",
-  "https://www.shiksha.com/college/rustomjee-business-school-dahisar-west-mumbai-26597",
-  "https://www.shiksha.com/college/institute-of-technology-and-management-nanded-64269",
-  "https://www.shiksha.com/college/chettinad-college-of-engineering-and-technology-karur-61481",
-  "https://www.shiksha.com/college/dhananjayrao-gadgil-institute-of-co-operative-management-nagpur-64167",
-  "https://www.shiksha.com/college/navjeevan-institute-of-management-maharashtra-other-22836",
-  "https://www.shiksha.com/college/himalaya-college-of-professional-education-patna-232592",
+  # "https://www.shiksha.com/college/aligarh-college-of-engineering-and-technology-24927",
+  # "https://www.shiksha.com/college/rustomjee-business-school-dahisar-west-mumbai-26597",
+  # "https://www.shiksha.com/college/institute-of-technology-and-management-nanded-64269",
+  # "https://www.shiksha.com/college/chettinad-college-of-engineering-and-technology-karur-61481",
+  # "https://www.shiksha.com/college/dhananjayrao-gadgil-institute-of-co-operative-management-nagpur-64167",
+  # "https://www.shiksha.com/college/navjeevan-institute-of-management-maharashtra-other-22836",
+  # "https://www.shiksha.com/college/himalaya-college-of-professional-education-patna-232592",
 ]
 
 
