@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/prince-shri-venkateshwara-padmavathy-engineering-college-chennai-61645",
-  "https://www.shiksha.com/university/sardarkrushinagar-dantiwada-agricultural-university-banaskantha-65939",
-  "https://www.shiksha.com/college/u-d-pathrikar-institute-of-management-aurangabad-209025",
-  "https://www.shiksha.com/university/baba-ghulam-shah-badshah-university-jammu-25269",
-  "https://www.shiksha.com/college/nims-nehru-institute-of-management-studies-coimbatore-28608",
-  "https://www.shiksha.com/university/sri-chandrasekharendra-saraswathi-viswa-mahavidyalaya-chennai-36961",
-  "https://www.shiksha.com/college/poddar-business-school-jaipur-213813",
-  "https://www.shiksha.com/college/conspi-academy-of-management-studies-thiruvananthapuram-30686",
-  "https://www.shiksha.com/college/nandini-nagar-technical-campus-gonda-60007",
-  "https://www.shiksha.com/college/udaya-school-of-engineering-kanyakumari-61753",
-  "https://www.shiksha.com/college/avanthi-degree-and-pg-college-kachiguda-hyderabad-64491",
-  "https://www.shiksha.com/college/samarth-group-of-institutions-maharashtra-other-59985",
-  "https://www.shiksha.com/college/dr-mar-theophilus-institute-of-management-studies-navi-mumbai-155865",
-  "https://www.shiksha.com/college/srinivas-university-bangalore-campus-jayanagar-156677",
-  "https://www.shiksha.com/college/planet-finance-business-school-hyderabad-212343",
-  "https://www.shiksha.com/college/park-s-college-tirupur-20851",
-  "https://www.shiksha.com/college/syed-ammal-engineering-college-saec-ramanathapuram-madurai-21355",
-  "https://www.shiksha.com/college/pet-engineering-college-tirunelveli-22864",
-  "https://www.shiksha.com/university/st-peter-s-institute-of-higher-education-and-research-chennai-24046",
-  "https://www.shiksha.com/college/modern-institute-of-technology-and-research-centre-mitrc-alwar-38899",
-  "https://www.shiksha.com/college/institute-of-excellence-in-management-science-hubli-67261",
-  "https://www.shiksha.com/college/vijetha-academy-secunderabad-101783",
-  "https://www.shiksha.com/university/kerala-university-of-digital-sciences-innovation-and-technology-thiruvananthapuram-154899",
-  # "https://www.shiksha.com/college/aligarh-college-of-engineering-and-technology-24927",
-  # "https://www.shiksha.com/college/rustomjee-business-school-dahisar-west-mumbai-26597",
-  # "https://www.shiksha.com/college/institute-of-technology-and-management-nanded-64269",
-  # "https://www.shiksha.com/college/chettinad-college-of-engineering-and-technology-karur-61481",
-  # "https://www.shiksha.com/college/dhananjayrao-gadgil-institute-of-co-operative-management-nagpur-64167",
-  # "https://www.shiksha.com/college/navjeevan-institute-of-management-maharashtra-other-22836",
-  # "https://www.shiksha.com/college/himalaya-college-of-professional-education-patna-232592",
+  # "https://www.shiksha.com/college/prince-shri-venkateshwara-padmavathy-engineering-college-chennai-61645",
+  # "https://www.shiksha.com/university/sardarkrushinagar-dantiwada-agricultural-university-banaskantha-65939",
+  # "https://www.shiksha.com/college/u-d-pathrikar-institute-of-management-aurangabad-209025",
+  # "https://www.shiksha.com/university/baba-ghulam-shah-badshah-university-jammu-25269",
+  # "https://www.shiksha.com/college/nims-nehru-institute-of-management-studies-coimbatore-28608",
+  # "https://www.shiksha.com/university/sri-chandrasekharendra-saraswathi-viswa-mahavidyalaya-chennai-36961",
+  # "https://www.shiksha.com/college/poddar-business-school-jaipur-213813",
+  # "https://www.shiksha.com/college/conspi-academy-of-management-studies-thiruvananthapuram-30686",
+  # "https://www.shiksha.com/college/nandini-nagar-technical-campus-gonda-60007",
+  # "https://www.shiksha.com/college/udaya-school-of-engineering-kanyakumari-61753",
+  # "https://www.shiksha.com/college/avanthi-degree-and-pg-college-kachiguda-hyderabad-64491",
+  # "https://www.shiksha.com/college/samarth-group-of-institutions-maharashtra-other-59985",
+  # "https://www.shiksha.com/college/dr-mar-theophilus-institute-of-management-studies-navi-mumbai-155865",
+  # "https://www.shiksha.com/college/srinivas-university-bangalore-campus-jayanagar-156677",
+  # "https://www.shiksha.com/college/planet-finance-business-school-hyderabad-212343",
+  # "https://www.shiksha.com/college/park-s-college-tirupur-20851",
+  # "https://www.shiksha.com/college/syed-ammal-engineering-college-saec-ramanathapuram-madurai-21355",
+  # "https://www.shiksha.com/college/pet-engineering-college-tirunelveli-22864",
+  # "https://www.shiksha.com/university/st-peter-s-institute-of-higher-education-and-research-chennai-24046",
+  # "https://www.shiksha.com/college/modern-institute-of-technology-and-research-centre-mitrc-alwar-38899",
+  # "https://www.shiksha.com/college/institute-of-excellence-in-management-science-hubli-67261",
+  # "https://www.shiksha.com/college/vijetha-academy-secunderabad-101783",
+  # "https://www.shiksha.com/university/kerala-university-of-digital-sciences-innovation-and-technology-thiruvananthapuram-154899",
+  "https://www.shiksha.com/college/aligarh-college-of-engineering-and-technology-24927",
+  "https://www.shiksha.com/college/rustomjee-business-school-dahisar-west-mumbai-26597",
+  "https://www.shiksha.com/college/institute-of-technology-and-management-nanded-64269",
+  "https://www.shiksha.com/college/chettinad-college-of-engineering-and-technology-karur-61481",
+  "https://www.shiksha.com/college/dhananjayrao-gadgil-institute-of-co-operative-management-nagpur-64167",
+  "https://www.shiksha.com/college/navjeevan-institute-of-management-maharashtra-other-22836",
+  "https://www.shiksha.com/college/himalaya-college-of-professional-education-patna-232592",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1261
+    c_count =1284
 
     try:
         for base_url in BASE_URL:
